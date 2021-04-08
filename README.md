@@ -6,7 +6,7 @@
 The ply model is displayed at the end of the program, but you can also view it in any 3D software like Blender or Meshlab. 
 For the comfort of the user it is recommended to change the background color from black to a lighter color like green.
 3.  To start the program, run the file `main.m`.
-4. While running, figures will appear, of the images' key and matched features. When the program is finished, the 
+4. While running, figures will appear, of the images' key and matched features and eventually of the resulting 3D point cloud.
 
 ## The main steps of the program :
 1. Decipher the intrinsic matrix text file.
