@@ -17,6 +17,6 @@ For the comfort of the user it is recommended to change the background color fro
 
 ## How to make your own model :
 1. Take two pictures of the same object from similar but different views. The horizontal orientation is recommended.
-2. Calibrate your camera with the Matlab Toolbox and write the resulting intrinsic matrix into a file named `intrinsic.txt`, which you must place in the same folder as the two images.
+2. Calibrate your camera with the Matlab Toolbox and write the resulting intrinsic matrix into a file named `intrinsic.txt`, which you must place in the same folder as the two images. Add the dimensions of the images on the 4th line.
 3. Put them into the same folder, then modify `main.m` to point to the images. 
 Add a line of code like so : `Structure_from_Motion(image1Path, image2Path)`, with image1Path and image2Path being the paths of the two images you want to stitch together. 
